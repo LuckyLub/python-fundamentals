@@ -9,5 +9,14 @@ NOTE: We will use the input() funtion to collect users input. An example is demo
 # the input of the user will be saved in the variable days.
 # because the input() function collects the input as a string, we have to convert it to an int
 # The string passed to the input() function is what the user is prompted with
+
+
+def days_to_seconds(days):
+    seconds=days*24*60*60
+    return seconds
+
 days = int(input("Please enter a number in days between 1 and 1,000,000,000: "))
 
+seconds=days_to_seconds(days)
+
+print('Did you know there are ', seconds, ' seconds in ', days, ' days?')

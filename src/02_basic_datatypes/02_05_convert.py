@@ -10,3 +10,13 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+x=10
+print(x)
+y=float(x)
+print(y)
+z=x/y
+print(z)
+x=int(input('Give a number.'))
+y=int(input('Give a second one.'))
+print('These numbers multiplied gives you: ', x*y)
