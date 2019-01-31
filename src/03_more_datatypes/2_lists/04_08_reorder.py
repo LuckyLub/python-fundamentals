@@ -7,3 +7,11 @@ Example input: 1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+numbers=[]
+ammount = 10
+i=1
+
+while i<=ammount:
+    numbers.append(int(input(f'Give me a number! ({i} of {ammount})')))
+    i += 1
