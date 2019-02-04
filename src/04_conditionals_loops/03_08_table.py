@@ -8,3 +8,12 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+txt =str()
+for i in range(50):
+    if i % 10 == 0:
+        txt += '\n'+str(i)+" "
+
+    else:
+        txt += str(i)+" "
+
+print(txt)
