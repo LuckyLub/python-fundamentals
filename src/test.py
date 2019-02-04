@@ -1,4 +1,4 @@
-def print_names(people):
+'''def print_names(people):
     l1 = len(people)
     c1 = 0
 
@@ -14,4 +14,8 @@ def print_names(people):
         print(to_print)
         c1 += 1
 
-print_names([['John', 'Smith'],['Mary', 'Keyes'],['Jane', 'Doe'],['Angus']])
+print_names([['John', 'Smith'],['Mary', 'Keyes'],['Jane', 'Doe'],['Angus']])'''
+
+from math import *
+
+print(pi)
