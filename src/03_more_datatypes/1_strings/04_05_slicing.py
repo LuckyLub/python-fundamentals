@@ -8,7 +8,7 @@ For example: ryan -> yanray, caden -> adencay
 
 '''
 
-name=input('How do you think you are? Give me your name, you swine!')
+name=input('Who do you think you are? Give me your name, you swine!')
 
 def pig_latin_compiler(name):
     return name[1:]+name[0]+'ay'

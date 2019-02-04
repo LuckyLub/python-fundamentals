@@ -9,9 +9,14 @@ Example output: 2,4,6,8,10,9,7,5,3,1
 '''
 
 numbers=[]
+sequence=[2,4,6,8,10,9,7,5,3,1]
 ammount = 10
 i=1
 
 while i<=ammount:
     numbers.append(int(input(f'Give me a number! ({i} of {ammount})')))
     i += 1
+
+for x in sequence:
+    x=x-1
+    print(numbers[x])

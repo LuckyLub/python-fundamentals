@@ -6,3 +6,12 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+result={}
+userInput = input("Write me a sentence! Please...").lower()
+userInputList = list(userInput)
+userInputUnique = set(userInput)
+
+for unique in userInputUnique:
+    result.update({unique : userInputList.count(unique)})
+
+print(result)
