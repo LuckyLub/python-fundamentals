@@ -16,6 +16,15 @@
 
 print_names([['John', 'Smith'],['Mary', 'Keyes'],['Jane', 'Doe'],['Angus']])'''
 
-from math import *
+class Class1:
+    def __init__(self):
+        self.x = 5
 
-print(pi)
+class Class2(Class1):
+
+    def __init__(self):
+        super().__init__()
+        self.y = 1
+
+b = Class2()
+print(b.y + b.x)

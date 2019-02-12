@@ -15,7 +15,7 @@ def get_hand(hand):
         return "rock"
     else:
         return "paper"
-
+`
 # function should take in two hands and return a string "You won!" or "You lost :(" or "You tied!"
 def determine_winner(computer, player):
     if computer == player:
